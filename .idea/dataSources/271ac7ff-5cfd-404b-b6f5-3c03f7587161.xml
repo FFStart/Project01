@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="test@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="test">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="alicn"/>
+    <schema id="4" parent="1" name="alicn2"/>
+    <schema id="5" parent="1" name="alicn_20170403"/>
+    <schema id="6" parent="1" name="caipiao"/>
+    <schema id="7" parent="1" name="dwz4j"/>
+    <schema id="8" parent="1" name="dwz_springmvc"/>
+    <schema id="9" parent="1" name="information_schema"/>
+    <schema id="10" parent="1" name="msg_center"/>
+    <schema id="11" parent="1" name="mysql"/>
+    <schema id="12" parent="1" name="performance_schema"/>
+    <schema id="13" parent="1" name="qxc"/>
+    <schema id="14" parent="1" name="tbx"/>
+    <schema id="15" parent="1" name="tbzx"/>
+    <schema id="16" parent="1" name="zlwx"/>
+    <table id="17" parent="2" name="user"/>
+    <column id="18" parent="17" name="Id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="19" parent="17" name="Name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="20" parent="17" name="Sex">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="21" parent="17" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
